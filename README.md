@@ -18,7 +18,7 @@ target audience: people 14-60+-, those who prefer comfortable clothes, those who
 [UI kit](/ui-kit.html)
 Competitors:
  - [original NB website](https://www.newbalance.com/)
- - [P43 group similar project](github.com/vicitmceo/NewBalanceShop)
+ - [P43 group similar project](https://github.com/vicitmceo/NewBalanceShop)
  - etc
 # 5
 ```mermaid
@@ -55,20 +55,7 @@ graph TD
     Infra -->|Upload API| Cloudinary
 ```
 # 6
-```mermaid
-graph CleanArch
-        subgraph Backend
-              WebApi["WebApi Layer<br/>(Controllers, JWT Auth, Swagger)"]
-              App["Application Layer<br/>(Services, DTOs, AutoMapper)"]
-              Domain["Domain Layer<br/>(Entities, Enums, Repo Interfaces)"]
-              Infra["Infrastructure Layer<br/>(Firebase Repo, Cloudinary, Configs)"]
-        
-              WebApi --> App
-              App --> Domain
-              Infra --> Domain
-              WebApi --> Infra
-end
-```
+shown above
 # 7
 Factory, Repository, Reducer, DI
 # 8
@@ -81,9 +68,9 @@ Factory, Repository, Reducer, DI
  - 2 months develompent
 # 10
  - [jira dashboard (to be updated)](/dashboard.pdf)
- - [branches example](branches.png)
+ - [branches example](/branches.png)
  - branches: main, tests, docs...
- - [contributors](contributors.png)
+ - [contributors](/contributors.png)
 # 11
 NUnit 51 unit and 10 integration tests. 90%+ coverage. 100% pass
 (visual studio analysis)[tests.png]
