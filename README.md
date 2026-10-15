@@ -56,16 +56,18 @@ graph TD
 ```
 # 6
 ```mermaid
-graph Backend
-        WebApi["WebApi Layer<br/>(Controllers, JWT Auth, Swagger)"]
-        App["Application Layer<br/>(Services, DTOs, AutoMapper)"]
-        Domain["Domain Layer<br/>(Entities, Enums, Repo Interfaces)"]
-        Infra["Infrastructure Layer<br/>(Firebase Repo, Cloudinary, Configs)"]
+graph CleanArch
+        subgraph Backend
+              WebApi["WebApi Layer<br/>(Controllers, JWT Auth, Swagger)"]
+              App["Application Layer<br/>(Services, DTOs, AutoMapper)"]
+              Domain["Domain Layer<br/>(Entities, Enums, Repo Interfaces)"]
+              Infra["Infrastructure Layer<br/>(Firebase Repo, Cloudinary, Configs)"]
         
-        WebApi --> App
-        App --> Domain
-        Infra --> Domain
-        WebApi --> Infra
+              WebApi --> App
+              App --> Domain
+              Infra --> Domain
+              WebApi --> Infra
+end
 ```
 # 7
 Factory, Repository, Reducer, DI
