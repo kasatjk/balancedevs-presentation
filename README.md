@@ -8,8 +8,11 @@ team members:
  - [Данило Павлюк - QA / technical writer - @goyvey](github.com/kasatjk)
 # 2
 problem: inconvinient websites, hard and too slow to find clothes, too much friction with accounts etc
+
 solution: sleek, modern UI, smooth UX, easy purchase in a couple of clicks even without reg
+
 target audience: people 14-60+-, those who prefer comfortable clothes, those who need sportswear etc
+
 # 3
 [srs](https://github.com/AlexElNX/NewBalanceStore/blob/main/docs/src.md)
 
