@@ -62,7 +62,7 @@ shown above
 # 7
 Factory, Repository, Reducer, DI
 # 8
---- will be added
+[db uml](https://gist.github.com/AlexDrts/5d97ed5beeff9fb40be784c8cf8b5aaa)
 # 9
  - most or 100% reqs satisfied
  - tests: 95% blocks, 90.1% lines
